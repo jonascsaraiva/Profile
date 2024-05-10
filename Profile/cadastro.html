@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="customize2">
+    <h3>Cadastro</h3>
+    <div>
+      <label>Nome</label>
+      <input type="text" id="usuario" placeholder="Digite seu nome de usuario">
+    </div>
+    
+    <div>
+      <label>E-mail</label>
+      <input type="text" id="email" placeholder="Digite seu E-mail">
+    </div>
+
+    <div>
+      <label>Senha</label>
+      <input type="text" id="senha1" placeholder="Digite sua senha">
+      <a id="caractere">Senha deve conter mais de 08 caracteres</a>
+      <a id="conferir">Senhas não conferem!</a>
+    </div>
+
+    <div>
+      <label>Confirmar Senha</label>
+      <input type="text" id="senha2" placeholder="Confirme sua senha">
+      <a id="caractere">Senha deve conter mais de 08 caracteres</a>
+      <a id="conferir">Senhas não conferem!</a>
+    </div>
+    <div>
+      <button onclick="salvar()">Atualizar</button>
+    </div>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>
